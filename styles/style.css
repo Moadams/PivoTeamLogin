@@ -10,13 +10,7 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-.main-background{    
-    height: 100vh;
-    background: linear-gradient(252.79deg, #E2C09F 39.02%, #E87D16 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .sign-in-card{
     
@@ -33,6 +27,14 @@ body{
 .card-left{
     background-color: #FEF4EA;
 }
+
+.left-content-container{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .card-left .logo{
     display: flex;
@@ -64,7 +66,7 @@ body{
 }
 
 .card-left .image img{
-    height: 400px;
+    /* height: 400px; */
 }
 
 .card-right{
