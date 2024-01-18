@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.main-background{    
+    height: 100vh;
+    background: linear-gradient(252.79deg, #E2C09F 39.02%, #E87D16 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-card{
+    
+    height: 100vh;
+    display: flex;
+}
+
+.card-right,.card-left{
+    flex: 1;
+    width: 50%;
+    padding: 20px;
+}
+
+.card-left{
+    background-color: #FEF4EA;
+}
+
+.card-left .logo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 55px;
+}
+
+.logo .logo-name{
+    font-size: 16px;
+    font-weight: 400;
+    color: #E6882D;
+}
+
+.card-left .title{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.card-left .title .variant{
+    color: #E3852A;
+}
+
+.card-left .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-left .image img{
+    height: 400px;
+}
+
+.card-right{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-right .content .form-header .welcome-text{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.welcome-text .variant{
+    color: #E09145;
+}
+
+.form-header p{
+    color: #EA8A2D;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.content{
+    width: 85%;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 10px;
+}
+
+.form-inputs input{
+    border: 1px solid #E09145;
+    background-color: #FCD9B347;
+    color: #E09145;
+    padding: 17px;
+    border-radius: 5px;
+}
+
+form input::placeholder{
+    color: #E09145;
+}
+
+.forgot-password{
+    text-align: right;
+}
+
+.forgot-password a{
+    color: #E87D16;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.submit-button{
+    margin-top: 60px;
+    background-color: #E09145;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    opacity: .95;
+    transition: .5s ease-in-out;
+}
+
+.form-footer{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.form-footer a{
+    color: #E3852A;
+    text-decoration: underline;
+}
